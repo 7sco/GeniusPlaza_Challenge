@@ -4,5 +4,16 @@
     <string name="id_1">ID: 1</string>
     <string name="error_no_internet">Unable to get Matches. Please try again later.</string>
     <string name="id_text">ID #: </string>
+    <string name="create_user_empty_text">Both fields should be fill</string>
+    <string name="add_text">ADD</string>
+    <string name="cancel_text">CANCEL</string>
+    <string name="offset_text">offset</string>
+    <string name="rotation_text">listBeforeRotation</string>
+    <string name="user_created_text">User Created with ID: </string>
+    <string name="failed_connection_text">Failed </string>
+    <string name="empty_text">Both Fields should be filled </string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_job">Enter Job</string>
+    <string name="create_users">Create Users</string>
 
 </resources>

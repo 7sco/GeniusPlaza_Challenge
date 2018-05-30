@@ -15,7 +15,6 @@ import java.util.List;
 public class UsersListAdapter extends RecyclerView.Adapter<UsersListViewHolder> {
     private List<Data> listUsers= new ArrayList<>();
 
-
     @NonNull
     @Override
     public UsersListViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -26,7 +25,6 @@ public class UsersListAdapter extends RecyclerView.Adapter<UsersListViewHolder> 
     @Override
     public void onBindViewHolder(@NonNull UsersListViewHolder holder, int position) {
         holder.bind(listUsers.get(position));
-
     }
 
     @Override
@@ -35,7 +33,6 @@ public class UsersListAdapter extends RecyclerView.Adapter<UsersListViewHolder> 
     }
 
     public void addUsers(List<Data> listUsers) {
-        //this.listUsers.clear();
         this.listUsers.addAll(listUsers);
         notifyDataSetChanged();
     }

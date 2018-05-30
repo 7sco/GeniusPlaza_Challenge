@@ -24,14 +24,12 @@ public class UsersListViewHolder extends RecyclerView.ViewHolder {
     public UsersListViewHolder(View itemView) {
         super(itemView);
         ButterKnife.bind(this, itemView);
-
     }
 
     public void bind(Data data){
         String userFullName= data.getFirst_name()+" "+data.getLast_name();
         String userId= itemView.getResources().getString(R.string.id_text)+ data.getId();
         String imageUrl= data.getAvatar();
-
         userFullNameTV.setText(userFullName);
         userIdTV.setText(userId);
         Picasso.get().load(imageUrl).
