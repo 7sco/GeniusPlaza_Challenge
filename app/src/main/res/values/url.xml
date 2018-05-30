@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="WW_Domain">https://reqres.in/apim</string>
+    <string name="WW_Domain">https://reqres.in/api/</string>
 </resources>

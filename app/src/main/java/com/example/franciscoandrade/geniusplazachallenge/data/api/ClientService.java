@@ -15,7 +15,7 @@ public class ClientService {
     }
 
     @NonNull
-    public MatchApi getUserApi() {
-        return retrofit.create(MatchApi.class);
+    public UsersApi getUserApi() {
+        return retrofit.create(UsersApi.class);
     }
 }
