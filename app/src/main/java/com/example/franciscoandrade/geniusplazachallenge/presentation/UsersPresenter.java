@@ -3,6 +3,7 @@ package com.example.franciscoandrade.geniusplazachallenge.presentation;
 import android.content.res.Resources;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
+import android.util.Log;
 
 import com.example.franciscoandrade.geniusplazachallenge.R;
 import com.example.franciscoandrade.geniusplazachallenge.data.api.ClientService;
@@ -39,6 +40,7 @@ public class UsersPresenter implements UsersContract.Presenter{
                 }
                 @Override
                 public void onFailure(Call<UserResponse> call, Throwable t) {
+                    Log.d(TAG, "onFailure: "+t.getMessage());
                     viewImpl.showMessage();
                     viewImpl.ableToReload(true, offset);
                 }
