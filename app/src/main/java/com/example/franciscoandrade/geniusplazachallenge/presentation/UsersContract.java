@@ -16,7 +16,6 @@ public interface UsersContract {
     interface Presenter{
         void getMatchList(int offset);
         void createUser(String name, String job);
-
     }
 
 }
